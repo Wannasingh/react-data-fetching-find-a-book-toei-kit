@@ -11,13 +11,18 @@
   },
   "dependencies": {
     "@testing-library/user-event": "^14.4.3",
-    "axios": "^1.4.0",
+    "axios": "^1.7.7",
     "axios-mock-adapter": "^1.21.4",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.453.0",
     "msw": "^1.2.1",
     "node-fetch": "^3.3.2",
     "pg": "^8.11.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -27,7 +32,10 @@
     "@vitejs/plugin-react": "^3.1.0",
     "@vitest/coverage-c8": "^0.32.0",
     "@vitest/coverage-v8": "^0.32.0",
+    "autoprefixer": "^10.4.20",
     "jsdom": "^22.1.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
     "vite": "^4.1.0",
     "vitest": "^0.32.0"
   }
